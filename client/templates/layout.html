@@ -1,0 +1,12 @@
+<body>
+{{renderPage}}
+</body>
+<template name="layout">
+  {{>navbar}}
+  <div class="container">
+    <div class="row">
+      {{>yield}}
+    </div>
+  </div>
+
+</template>
